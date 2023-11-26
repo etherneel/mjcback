@@ -5,7 +5,7 @@ mongoose.set("strictQuery", false)
 
 try {
 
-    mongoose.connect(process.env.DB_URI, {
+    mongoose.connect('process.env.DB_URI', {
         useUnifiedTopology: true,
         useNewUrlParser: true
     })
