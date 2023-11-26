@@ -5,7 +5,7 @@ mongoose.set("strictQuery", false)
 
 try {
 
-    mongoose.connect('process.env.DB_URI', {
+    mongoose.connect('mongodb+srv://weberlabsinfo:nYznehKHW3JqzThc@cluster0.sxpngpr.mongodb.net/demo123', {
         useUnifiedTopology: true,
         useNewUrlParser: true
     })
