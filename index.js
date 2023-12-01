@@ -20,7 +20,7 @@ const ContractAbiForBUSD = env.contract.busdAbi.abi;
 const ContractAddressForBUSD = env.globalAccess.busdContract;
 
 const PrivateKey = env.privateKey;
-const port = 3000;
+const port = 3300;
 
 const web3 = new Web3(infraUrl);
 const app = express();
